@@ -8,8 +8,6 @@ import Logo from '../Logo';
 import Store from '../../../public/img/store.png';
 
 export default function Header() {
-  // const isMobile = useMediaQuery('(max-width:714px)');
-
   return (
     <S.Container>
       <Logo />
@@ -18,7 +16,7 @@ export default function Header() {
           @doutordm2diabetes
         </S.Title>
         <S.SubTittle>
-          Tratamento inteligente, resultados duradouros
+          Mais do que controle, tratamento inteligente
         </S.SubTittle>
       </S.Box>
       <S.ImageWrapper>
