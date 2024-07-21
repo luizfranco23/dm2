@@ -13,10 +13,10 @@ export default function Header() {
       <Logo />
       <S.Box>
         <S.Title>
-          @doutordm2diabetes
+          Encontre a clínica mais próxima de você
         </S.Title>
         <S.SubTittle>
-          Mais do que controle, tratamento inteligente
+          @doutordm2diabetes
         </S.SubTittle>
       </S.Box>
       <S.ImageWrapper>
@@ -24,7 +24,7 @@ export default function Header() {
           src={Store}
           alt="Imagem da loja"
           layout="responsive"
-          width={450}
+          width={0}
           height={350}
         />
       </S.ImageWrapper>

@@ -1,12 +1,12 @@
 // Logo.js
 import React from 'react';
 import * as S from './styles';
-import logoImg from '../../../public/img/logocompleta.png';
+import logo from '../../../public/img/logo.png';
 
 export default function Logo() {
   return (
     <S.Container>
-      <S.Logo src={logoImg.src} alt="Logo" />
+      <S.Logo src={logo.src} alt="Logo" />
     </S.Container>
   );
 }

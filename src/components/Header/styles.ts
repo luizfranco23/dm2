@@ -18,8 +18,9 @@ export const Box = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 1.5rem; 
+  font-size: 0.9rem; 
   color: #075C57;
+  text-align: center;
 `;
 
 export const SubTittle = styled.h2`
@@ -31,13 +32,14 @@ export const SubTittle = styled.h2`
 
 export const ImageWrapper = styled.div`
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
   height: auto;
   display: flex;
   justify-content: center;
   border-radius: 15px;
   overflow: hidden;
   position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 `;
 
 export const Image = styled.img`
